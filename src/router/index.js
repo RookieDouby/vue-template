@@ -19,7 +19,7 @@ const router = new VueRouter({
             children: [
                 {
                     path: '/home',
-                    component: () => import (/* webpackChunkName: "home" */ '@/pages/home'),
+                    component: () => import (/* webpackChunkName: "home" */ '@/pages/home/Home.vue'),
                 },
             ]
         }

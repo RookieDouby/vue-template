@@ -16,6 +16,7 @@
 
 <style lang="scss" scoped>
     .layout {
+        height: 100%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
