@@ -21,6 +21,10 @@ const router = new VueRouter({
                     path: '/home',
                     component: () => import (/* webpackChunkName: "home" */ '@/pages/home/Home.vue'),
                 },
+                {
+                    path: '/bpmn',
+                    component: () => import (/* webpackChunkName: "bpmn" */ '@/pages/bpmn/index.vue'),
+                },
             ]
         }
     ]
