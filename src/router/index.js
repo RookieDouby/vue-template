@@ -25,6 +25,11 @@ const router = new VueRouter({
                     path: '/bpmn',
                     component: () => import (/* webpackChunkName: "bpmn" */ '@/pages/bpmn/index.vue'),
                 },
+                {
+                    path: '/getBpmnFromHttp',
+                    name: 'getBpmnFromHttp',
+                    component: () => import (/* webpackChunkName: "bpmn" */ '@/pages/bpmn/getBpmnFromHttp.vue'),
+                },
             ]
         }
     ]
